@@ -1,13 +1,46 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
-    
+
 </head>
+
 <body>
+    <main>
+        <div class="header">
+            <h1>Mortgage Calculator</h1>
+            <button>clear all</button>
+        </div>
+        <form action="">
+            <label for="amount">Mortgage amount</label>
+            <input type="text" id="amount">
+            <div class="terms">
+                <label for="term">mortgage term</label>
+                <input type="text" id="term">
+                <label for="rates">interest rate</label>
+                <input type="text" id="rates">
+            </div>
+            <div class="type">
+                <label for="payments">repayments</label>
+                <input type="radio" id="payments">
+                <label for="interests">interest only</label>
+                <input type="radio" id="interests">
+            </div>
+            <button>calculate repayments</button>
+        </form>
+        <div class="">
+            <img src="assets/images/illustration-empty.svg" alt="payments icon">
+            <div>
+                <h3>Results shown here</h3>
+                <p>complete the form and click " calculate repayments" to see what your monthly repayments would be.</p>
+            </div>
+        </div>
+    </main>
     <script src="index.js"></script>
 </body>
+
 </html>
