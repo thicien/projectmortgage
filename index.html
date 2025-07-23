@@ -11,30 +11,40 @@
 
 <body>
     <main>
-        <div class="header">
-            <h1>Mortgage Calculator</h1>
-            <button>clear all</button>
-        </div>
-        <form action="">
-            <label for="amount">Mortgage amount</label>
-            <span>$</span>
-            <input type="text" id="amount">
-            <div class="terms">
-                <label for="term">mortgage term</label>
-                <input type="text" id="term">
-                <label for="rates">interest rate</label>
-                <input type="text" id="rates">
+        <section>
+            <div class="header">
+                <h1>Mortgage Calculator</h1>
+                <button>clear all</button>
             </div>
-            <div class="type">
-                <label for="payments">repayments</label>
-                <input type="radio" id="payments">
-                <label for="interests">interest only</label>
-                <input type="radio" id="interests">
-            </div>
-            <img src="assets//images/icon-calculator.svg" alt="">
-            <button>calculate repayments</button>
-        </form>
-        <div class="">
+            <form action="">
+                <div class="mort">
+                    <label for="amount">Mortgage amount</label> <br>
+                    <span>$</span>
+                    <input type="text" id="amount">
+                </div>
+                <div class="terms">
+                    <div>
+                        <label for="term">mortgage term</label><br>
+                        <input type="text" id="term">
+                    </div>
+                    <div>
+                        <label for="rates">interest rate</label><br>
+                        <input type="text" id="rates">
+                    </div>
+                </div>
+                <div class="type">
+
+                    <input type="radio" id="payments">
+                    <label for="payments">repayments</label><br>
+
+                    <input type="radio" id="interests">
+                    <label for="interests">interest only</label>
+                </div>
+                <img src="assets//images/icon-calculator.svg" alt="">
+                <button>calculate repayments</button>
+            </form>
+        </section>
+        <div class="money">
             <img src=" assets/images/illustration-empty.svg" alt="payments icon">
             <div>
                 <h3>Results shown here</h3>

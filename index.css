@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;;
+}
+:root{
+    --lime: hsl(61, 70%, 52%);
+    --Red: hsl(4, 69%, 50%);
+    --White: hsl(0, 0%, 100%);
+    --Slate-100: hsl(202, 86%, 94%);
+    --Slate-300: hsl(203, 41%, 72%);
+    --Slate-500: hsl(200, 26%, 54%);
+    --Slate-700: hsl(200, 24%, 40%);
+    --Slate-900: hsl(202, 55%, 16%);
+
+}
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Slate-100);
+}
+main{
+    display: flex;
+    align-items: center;
+}
+.header{
+display: flex;
+align-items: center;
+gap: 100px;
+}
+h1{
+    color: var(--Slate-900);
+    font-size: 18px;
+}
+.header button{
+   border: none;
+   text-transform: capitalize;
+   background-color: none;
+   text-decoration: underline;
+   color: gray; 
+}
+.mort span{
+    background-color: var(--lime);
+    padding: 1px 8px ;
+    position: relative;
+    left: 5px;
+    top: 1px;
+}
+.terms{
+    display: flex;
+    gap: 20px; 
+}
+section{
+    background-color: var(--White);
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.money{
+    background-color: var(--Slate-900);
+}
+form{
+    margin: 10px 0;
+}
+label{
+    color: var(--Slate-700);
+    font-weight: 600;
+}
+input{
+    margin:8px auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid var(--Slate-700);
+    outline: none;
+}
