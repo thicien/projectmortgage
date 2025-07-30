@@ -9,9 +9,15 @@
 <body>
     <div id="example">
         <b>Hello World!</b>
-        <span style="display: none">hidden</span>
+        <span style="display: none">Hidden</span>
         Rwanda
     </div>
+    <script>
+        const element = document.getElementById("example");
+        console.log("innerHtml", element.innerHtml);
+        console.log("innerText", element.innerText);
+        console.log("textContent", element.textContent);
+    </script>
 </body>
 
 </html>
