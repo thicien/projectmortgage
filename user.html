@@ -30,13 +30,15 @@
         <textarea id="textContentOutput" rows="6" cols="30" readonly>…</textarea>
         <h3>Result of innerText:</h3>
         <textarea id="innerTextOutput" rows="6" cols="30" readonly>…</textarea>
+        <h3>Result of innerHtml:</h3>
+        <textarea id="innerHtmlOutput" rows="6" cols="30" readonly>…</textarea>
     </div>
 
     <script>
         const source = document.getElementById("source");
         const textContentOutput = document.getElementById("textContentOutput");
         const innerTextOutput = document.getElementById("innerTextOutput");
-
+        const innerHtmlOutput = document.getElementById("innerHtmlOutput");
         textContentOutput.value = source.textContent;
         innerTextOutput.value = source.innerText;
     </script>
