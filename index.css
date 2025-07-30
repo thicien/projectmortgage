@@ -45,7 +45,7 @@ h1{
    text-transform: capitalize;
    background-color: none;
    text-decoration: underline;
-   color: gray; 
+   color: grey; 
 }
 .mort span{
     background-color: var(--lime);
@@ -85,10 +85,19 @@ input{
     border: 1px solid var(--Slate-700);
     outline: none;
 }
-button{
+.butn{
+    background-color: yellow;
     border-radius: 10px;
-    color:  var(rgba(253, 253, 5, 0.936));
+    
 }
-.text{
-text-emphasis-color: var(--White);
+.texts{
+color: aliceblue;
+
+}
+.img{
+    right: 20px;
+}
+.payments{
+    border: 10px;
+
 }
