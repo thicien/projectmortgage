@@ -7,13 +7,13 @@
 </head>
 
 <body>
-    <p id="message">hello</p>
-    <button id="btn">click me!</button>
+    <p id="message">Hello Rwanda</p>
+    <button id="btn">Click Me!</button>
     <script>
         const btn = document.getElementById("btn");
         const message = document.getElementById("message");
         btn.addEventListener("click", () => {
-            btn.textContent = "You Clicked"
+            document.body.style.backgroundColor = document.body.style.backgroundColor === "black", "white:black";
         });
     </script>
 </body>
